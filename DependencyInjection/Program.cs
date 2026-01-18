@@ -27,8 +27,8 @@ User => request
 
 // Xususi methoda gore istifade etdikde nece inject etmeliyik
 
-builder.Services.AddScoped<ILog>(x => new FileLog());
-
+//builder.Services.AddScoped<ILog>(x => new FileLog());
+builder.Services.AddScoped<ILog>(x => new CustomSerilog("Hello World"));
 
 #endregion
 
