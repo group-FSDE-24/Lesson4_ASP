@@ -1,0 +1,14 @@
+﻿@using FirstWebApp.MyModel
+
+
+@model List<Person>
+
+<ul>
+
+    @foreach (var person in Model)
+    {
+        <li> @person.Name -> @person.Email </li>
+    }
+
+</ul>
+

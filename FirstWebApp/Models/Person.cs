@@ -1,4 +1,4 @@
-﻿namespace FirstWebApp.Modelsl;
+﻿namespace FirstWebApp.MyModel;
 
 public class Person
 {

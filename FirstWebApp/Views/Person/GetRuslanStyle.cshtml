@@ -1,0 +1,19 @@
+﻿@model RuslanExample
+
+
+<h3> Ruslanin dostlari..... </h3>
+<ul>
+    @foreach (var person in Model.People)
+    {
+        <li>@person.Name -> @person.Age</li>
+    }
+</ul>
+
+
+<h3> Ruslanin Masinlari..... </h3>
+<ul>
+    @foreach (var car in Model.Cars)
+    {
+        <li>@car.Model -> @car.Maker</li>
+    }
+</ul>
